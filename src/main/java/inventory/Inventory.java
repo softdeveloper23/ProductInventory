@@ -1,6 +1,6 @@
 package inventory;
 
 public class Inventory {
-    public String product;
+    public Product product;
     public int quantity;
 }
