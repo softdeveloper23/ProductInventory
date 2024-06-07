@@ -20,6 +20,8 @@ public class Main {
         warehouse.warehouseName = "Main Warehouse";
         warehouse.inventories = "Placeholder";
 
-        System.out.println(inventory.toString());
+        System.out.println("Product ID: " + inventory.product.productId + ", Name: " + inventory.product.productName + ", Price: $" + inventory.product.price);
+        System.out.println("Inventory Quantity: " + inventory.quantity);
+        System.out.println("Warehouse ID: " + warehouse.warehouseId + ", Warehouse Name: " + warehouse.warehouseName);
     }
 }
